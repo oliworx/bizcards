@@ -1,0 +1,24 @@
+
+.vcard { width: 76mm; 
+	height:40mm;
+	padding: 5mm ;
+	margin: 1mm;
+	font-family:Tahoma,Verdana,Arial,Helvetica;
+    color: #333;
+	float: left;
+	background-image:url(bg_bambus3a.jpg) ; 
+}
+.name { 
+font-size: 5mm;
+margin: 4mm 0;
+}
+.address { 
+font-size: 4mm;
+}
+.contact { 
+margin-top:1mm;
+font-size: 3mm;
+}
+#jobtitel, #firma { 
+display:none;
+}

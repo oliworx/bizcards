@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="google-site-verification" content="gnAdOP93if2ZTzQyygheWU_bNWXKSpr-b0wddWcMrXQ" />
+<title>Visitenkarten selber drucken</title>
+<link rel="stylesheet" type="text/css" href="styles/global.css" />
+<link rel="stylesheet" type="text/css" href="styles/vca.css" title="default" />
+<link rel="alternate stylesheet" type="text/css" href="styles/vcb.css" title="alternate" />
+<link rel="alternate stylesheet" type="text/css" href="styles/vcc.css" title="company" />
+</head>
+<body>
+<div id="page">
+<div class="noprint">
+ <h1>Visitenkarten online selber drucken</h1>
+ So einfach geht es:
+ <ol>
+ <li>Aussehen auswählen: 
+    <div id="layoutselection">
+		<a href="#" title="Bambus" onclick="setActiveStyleSheet('default'); return false;"><img alt="Bambus, linksbündig" src="images/layout-a.jpg"></a>
+		<a href="#" title="Zentriert"  onclick="setActiveStyleSheet('alternate'); return false;"><img alt="Bambus, zentriert" src="images/layout-b.jpg"></a>
+		<a href="#" title="Firma, neutraler Stil" onclick="setActiveStyleSheet('company'); return false;"><img alt="neutrale Firmen-Visitenkarte" src="images/layout-c.png"></a>
+	</div>
+	</li>
+ <li> persönliche Angaben anpassen - einfach anklicken und bearbeiten!</li>
+ <li><input type="button" value="Visitenkarte speichern und drucken" onclick="openPrintDialog()"> (10 Stück)</li>
+ </ol>
+</div>
+
+<section id="vcards">
+  <div class="vcard" id="vcard0">
+	<div class="name"  id="name" contenteditable><br>Vorname Nachname</div>
+	<div id="jobtitel" contenteditable>Jobtitel</div>
+	<div id="firma" contenteditable>Firmenname GmbH</div>
+	<div class="address" id="adresse" contenteditable>Adressstraße. 1
+	<br>12345 Stadtort</div>
+	<div class="contact">
+		<div class="telefon" id="telefon" contenteditable>tel.: 011-2233456</div>
+		<div class="fax" id="fax" contenteditable></div>
+		<div class="email" id="email" contenteditable>mail: muster@domain.de</div>
+	</div>
+  </div>
+</section>
+<div class="clr"></div>
+<footer class="noprint">
+<div id="footer">
+&copy; 2010 <a href="javascript:linkTo_UnCryptMailto('nbjmup;pmjwfsAlvsnjt/dpn');">Oliver Kurmis</a>
+<p>
+<a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:70px;height:25px" src="images/w3ccss.png" alt="CSS ist valide!" /></a>
+<a href="http://validator.w3.org/check?uri=http%3A%2F%2Fjiyu.de%2F"><img style="border:0;width:70px;height:25px" src="images/w3chtml5.png" alt="HTML5-valide!" /></a>
+</p>
+</div>
+</footer>
+</div>
+<script type="text/javascript" src="scripts/_global.js"></script>
+</body>
+</html> 

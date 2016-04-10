@@ -1,0 +1,27 @@
+
+.vcard { width: 78mm; 
+	height:42mm;
+	padding: 4mm;
+	margin: 1mm;
+	text-align:center;
+	font-family:Helvetica;
+	color: #222;
+	float: left;
+	background-image:url(bg_bambus_b.jpg) ; 
+	letter-spacing: 0.2mm;
+}
+.name { 
+margin-top:1mm;
+font-size: 5mm;
+}
+.address { 
+margin-top:1mm;
+font-size: 4mm;
+}
+.telefon, .email{ 
+margin-top:2mm;
+font-size: 3mm;
+}
+#jobtitel, #firma { 
+display:none;
+}

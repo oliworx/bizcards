@@ -1,0 +1,29 @@
+.vcard { width: 74mm; 
+	height:42mm;
+	padding: 5mm;
+	margin: 1mm;
+	font-family:Helvetica;
+	border: 1px #ddd dotted;
+	color: #222;
+	float: left;
+	letter-spacing: 0.2mm;
+}
+#name { 
+  border-bottom: 1px #ccc solid;
+  margin-top:-1mm;
+  font-size: 5mm;
+  text-align:right;
+}
+#address  , #jobtitel , #firma { 
+margin-top:1mm;
+font-size: 4mm;
+}
+
+ #jobtitel { 
+text-align:right;
+}
+
+.telefon , .fax, .email { 
+margin-top:1.5mm;
+font-size: 3mm;
+}
